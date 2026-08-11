@@ -7,7 +7,7 @@ Enterprise-grade fraud detection backend using Django REST Framework, Apache Kaf
 - **Streaming**: Apache Kafka 3.7 with async producers/consumers
 - **Database**: PostgreSQL 16
 - **Cache/Queue**: Redis 7 for real-time fraud scoring
-- **Authentication**: Token-based auth via DRF
+- **API**: RESTful endpoints via DRF
 
 ## Architecture
 1. Transaction POST to `/api/transactions/`
