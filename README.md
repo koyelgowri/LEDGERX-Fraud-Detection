@@ -20,19 +20,19 @@ Enterprise-grade fraud detection backend using Django REST Framework, Apache Kaf
 ## Demo
 
 ### 1. Multi-Rule Fraud Detection
-![DRF API Response](screenshots/drf-api-response.png)
+![DRF API Response](Screenshots/DRF API Response.png)
 API flags `darkweb` merchant. Rules: `velocity_rule+time_anomaly+ml_model+blacklist_merchant`
 
 ### 2. Fraud Monitoring Dashboard
-![Django Admin](screenshots/django-admin.png)
+![Django Admin](Screenshots/Django Admin.png)
 Django admin tracks 24 transactions. Rule engine detects velocity + blacklist patterns. 
 
 ### 3. Real-Time Streaming Pipeline
-![Kafka + Redis Consumer](screenshots/kafka-redis-consumer.png)
+![Kafka + Redis Consumer](Screenshots/Kafka + Redis Consumer.png)
 Async Kafka consumer connected to Kafka + Redis. ML scoring active.
 
 ### 4. Automated Tests Passing
-![Tests Passing](screenshots/tests-passing.png)
+![Tests Passing](Screenshots/Test Passing.png)
 Unit tests validate core fraud logic. 4/4 tests passed. 
 
 ## Quick Start
