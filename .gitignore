@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+LEDGERX_ENV/
+*.egg-info/
+dist/
+build/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kafka/Zookeeper
+logs/
+data/
+kafka-logs/
+kafka_2.13-3.7.0/
+zookeeper/
+
+# Redis
+dump.rdb
+
+# Secrets
+secrets.json
+config/secrets.py
